@@ -11,7 +11,7 @@ output/
 datasets/
 *.cache
 
-*.pt
+
 
 backup_before_reorganize/
 
