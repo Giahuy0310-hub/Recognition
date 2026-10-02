@@ -5,13 +5,9 @@ __pycache__/
 venv/
 env/
 
-runs/
 output/
-
 datasets/
 *.cache
-
-
 
 backup_before_reorganize/
 
@@ -22,4 +18,11 @@ backup_before_reorganize/
 *.avi
 *.mov
 
-.DS_Store
+runs/*
+!runs/detect/
+runs/detect/*
+!runs/detect/traffic_sign_18class_hardcase/
+runs/detect/traffic_sign_18class_hardcase/*
+!runs/detect/traffic_sign_18class_hardcase/weights/
+runs/detect/traffic_sign_18class_hardcase/weights/*
+!runs/detect/traffic_sign_18class_hardcase/weights/best.pt
